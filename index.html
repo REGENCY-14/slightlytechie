@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regency's CRUD WebApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Regency's CRUD WebApp</h1>
+        <button id="newPostBtn" class="btn">Create New Post</button>
+        <div id="postForm" style="display: none;">
+            <input type="text" id="postTitle" placeholder="Post Title">
+            <textarea id="postContent" placeholder="Post Content"></textarea>
+            <button id="submitPost" class="btn">Create Post</button>
+            <button id="cancelPost" class="btn" style="background-color: #9ca3af;">Cancel</button>
+        </div>
+        <div id="postsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
